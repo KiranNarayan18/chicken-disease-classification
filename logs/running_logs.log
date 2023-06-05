@@ -1,0 +1,86 @@
+[2023-06-05 12:22:10,483: INFO: main: logging started]
+[2023-06-05 12:22:24,955: INFO: main: logging started]
+2023-06-05 12:24:02,277: [INFO: main: logging started]
+2023-06-05 12:24:37,829: INFO: [main: logging started]
+[2023-06-05 12:26:20,925] 3 cnnClassifierLogger - INFO - logging started
+[2023-06-05 13:02:37,804] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-05 13:02:37,821] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-05 13:02:37,821] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-05 13:03:01,917] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-05 13:03:01,920] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-05 13:03:01,925] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-05 14:27:56,012] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-05 14:27:56,018] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-05 14:27:56,021] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-05 14:27:56,024] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-05 14:28:05,119] 13 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3FB0:6A30:B68AF:120A7D:647DA394
+Accept-Ranges: bytes
+Date: Mon, 05 Jun 2023 08:57:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1685955476.448509,VS0,VE900
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: adb873e6938aa9f42d8c59ba9d22caf04657a0ef
+Expires: Mon, 05 Jun 2023 09:02:57 GMT
+Source-Age: 1
+
+
+[2023-06-05 14:28:52,986] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-05 14:28:52,991] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-05 14:28:52,992] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-05 14:28:52,992] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-05 14:28:52,999] 15 cnnClassifierLogger - INFO - File already exists of size: ~ 11345 KB
+[2023-06-05 15:12:06,178] 10 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-05 15:12:06,178] 15 cnnClassifierLogger - ERROR - main() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    obj.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2023-06-05 15:12:50,425] 10 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-05 15:12:50,428] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-05 15:12:50,429] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-05 15:12:50,431] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-05 15:12:50,440] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-05 15:12:51,756] 23 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3FB0:6A30:B68AF:120A7D:647DA394
+Accept-Ranges: bytes
+Date: Mon, 05 Jun 2023 09:42:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100028-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1685958170.570835,VS0,VE302
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: de6e7934169b84981cfc7a94e9e202a19086ac1f
+Expires: Mon, 05 Jun 2023 09:47:49 GMT
+Source-Age: 0
+
+
+[2023-06-05 15:12:52,230] 13 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
