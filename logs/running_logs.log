@@ -58,3 +58,248 @@ x==========x
 [2023-06-08 23:00:24,938] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
 [2023-06-08 23:00:24,941] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
 [2023-06-08 23:00:24,945] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-09 22:55:48,839] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 22:55:48,847] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 22:55:48,849] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 22:55:48,852] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-09 22:55:48,854] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-09 22:55:48,856] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-09 22:57:09,175] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 22:57:09,184] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 22:57:09,189] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 22:57:09,193] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-09 22:57:09,195] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-09 22:57:09,200] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-09 23:11:12,128] 9 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-09 23:11:12,134] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:11:12,137] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:11:12,138] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:11:12,138] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-09 23:12:13,510] 23 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 42D8:17A2:2B9DA1:3D31FD:6483643A
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 17:41:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100027-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686332475.784886,VS0,VE783
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7667ec736f0822cd23ac52c890f9c25bbeb50687
+Expires: Fri, 09 Jun 2023 17:46:15 GMT
+Source-Age: 0
+
+
+[2023-06-09 23:12:14,050] 12 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2023-06-09 23:12:14,050] 20 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:12:14,056] 21 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation started <<<<<<
+[2023-06-09 23:12:14,061] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:12:14,066] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:12:14,066] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:12:14,066] 52 cnnClassifierLogger - INFO - created directory at: artifacts/prepare_base_model
+[2023-06-09 23:12:14,804] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-06-09 23:12:15,153] 24 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation completed <<<<<<
+
+x==========x
+[2023-06-09 23:12:15,156] 32 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:12:15,158] 33 cnnClassifierLogger - INFO - >>>>>> stage Training started <<<<<<
+[2023-06-09 23:12:15,159] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:12:15,167] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:12:15,167] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:12:15,167] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-09 23:12:15,167] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-09 23:12:15,174] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-09 23:14:57,027] 36 cnnClassifierLogger - INFO - >>>>>> stage Training completed <<<<<<
+
+x==========x
+[2023-06-09 23:21:01,517] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:21:01,524] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:21:01,527] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:21:13,696] 66 cnnClassifierLogger - INFO - json file saved at: scores.json
+[2023-06-09 23:31:41,620] 10 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-09 23:31:41,627] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:31:41,629] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:31:41,632] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:31:41,632] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-09 23:32:02,050] 23 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 42D8:17A2:2B9DA1:3D31FD:6483643A
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 18:01:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100024-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686333704.808494,VS0,VE294
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9e332d3acee504b81aed987b5a14313e953d759e
+Expires: Fri, 09 Jun 2023 18:06:44 GMT
+Source-Age: 0
+
+
+[2023-06-09 23:32:02,616] 13 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2023-06-09 23:32:02,618] 21 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:32:02,620] 22 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation started <<<<<<
+[2023-06-09 23:32:02,625] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:32:02,627] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:32:02,631] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:32:02,634] 52 cnnClassifierLogger - INFO - created directory at: artifacts/prepare_base_model
+[2023-06-09 23:32:03,348] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-06-09 23:32:03,693] 25 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation completed <<<<<<
+
+x==========x
+[2023-06-09 23:32:03,698] 33 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:32:03,698] 34 cnnClassifierLogger - INFO - >>>>>> stage Training started <<<<<<
+[2023-06-09 23:32:03,703] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:32:03,706] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:32:03,708] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:32:03,709] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-09 23:32:03,711] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-09 23:32:03,713] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-09 23:34:48,670] 37 cnnClassifierLogger - INFO - >>>>>> stage Training completed <<<<<<
+
+x==========x
+[2023-06-09 23:34:48,672] 46 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:34:48,672] 47 cnnClassifierLogger - INFO - >>>>>> stage Evaluation stage started <<<<<<
+[2023-06-09 23:34:48,675] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:34:48,678] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:34:48,679] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:34:59,559] 66 cnnClassifierLogger - INFO - json file saved at: scores.json
+[2023-06-09 23:34:59,559] 50 cnnClassifierLogger - INFO - >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x
+[2023-06-09 23:41:45,168] 27 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-09 23:41:45,173] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:41:45,176] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:41:45,176] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:41:45,176] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-09 23:42:58,414] 23 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 42D8:17A2:2B9DA1:3D31FD:6483643A
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 18:11:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686334307.023295,VS0,VE297
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 464d38b81a1ae1d00402673ea1fe150d302d6202
+Expires: Fri, 09 Jun 2023 18:16:47 GMT
+Source-Age: 0
+
+
+[2023-06-09 23:42:58,903] 30 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2023-06-09 23:43:10,930] 25 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:43:10,930] 26 cnnClassifierLogger - INFO - >>>>>> stage Prepare base model started <<<<<<
+[2023-06-09 23:43:10,942] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:43:10,950] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:43:10,951] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:43:10,959] 52 cnnClassifierLogger - INFO - created directory at: artifacts/prepare_base_model
+[2023-06-09 23:43:11,549] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-06-09 23:43:11,848] 29 cnnClassifierLogger - INFO - >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2023-06-09 23:43:19,400] 34 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:43:19,400] 35 cnnClassifierLogger - INFO - >>>>>> stage Training started <<<<<<
+[2023-06-09 23:43:19,412] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:43:19,415] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:43:19,417] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:43:19,417] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-09 23:43:19,417] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-09 23:43:19,422] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-09 23:46:01,884] 38 cnnClassifierLogger - INFO - >>>>>> stage Training completed <<<<<<
+
+x==========x
+[2023-06-09 23:46:08,564] 26 cnnClassifierLogger - INFO - *******************
+[2023-06-09 23:46:08,565] 27 cnnClassifierLogger - INFO - >>>>>> stage Evaluation stage started <<<<<<
+[2023-06-09 23:46:08,570] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-09 23:46:08,573] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-09 23:46:08,576] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-09 23:46:19,715] 66 cnnClassifierLogger - INFO - json file saved at: scores.json
+[2023-06-09 23:46:19,715] 30 cnnClassifierLogger - INFO - >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x
+[2023-06-10 09:15:07,778] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.200.127:8080
+[2023-06-10 09:15:07,782] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-06-10 09:15:17,645] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:15:17] "GET / HTTP/1.1" 200 -
+[2023-06-10 09:17:04,890] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:17:04] "POST /predict HTTP/1.1" 200 -
+[2023-06-10 09:17:25,295] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:17:25] "POST /predict HTTP/1.1" 200 -
+[2023-06-10 09:17:46,499] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:17:46] "POST /predict HTTP/1.1" 200 -
+[2023-06-10 09:18:03,034] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:18:03] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[2023-06-10 09:18:03,094] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:18:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-06-10 09:18:31,047] 10 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-10 09:18:31,071] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 09:18:31,079] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 09:18:31,087] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 09:18:31,089] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-10 09:18:31,089] 25 cnnClassifierLogger - INFO - File already exists of size: ~ 11345 KB
+[2023-06-10 09:18:31,410] 13 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2023-06-10 09:18:31,410] 21 cnnClassifierLogger - INFO - *******************
+[2023-06-10 09:18:31,410] 22 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation started <<<<<<
+[2023-06-10 09:18:31,420] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 09:18:31,420] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 09:18:31,423] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 09:18:31,423] 52 cnnClassifierLogger - INFO - created directory at: artifacts/prepare_base_model
+[2023-06-10 09:18:32,116] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-06-10 09:18:32,495] 25 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation completed <<<<<<
+
+x==========x
+[2023-06-10 09:18:32,495] 33 cnnClassifierLogger - INFO - *******************
+[2023-06-10 09:18:32,495] 34 cnnClassifierLogger - INFO - >>>>>> stage Training started <<<<<<
+[2023-06-10 09:18:32,498] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 09:18:32,504] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 09:18:32,507] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 09:18:32,507] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-10 09:18:32,509] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-10 09:18:32,509] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-10 09:19:08,654] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.200.127:8080
+[2023-06-10 09:19:08,654] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
