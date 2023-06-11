@@ -370,3 +370,136 @@ x==========x
 
 x==========x
 [2023-06-10 09:26:02,387] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 09:26:02] "GET /train HTTP/1.1" 200 -
+[2023-06-10 10:46:50,120] 10 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-10 10:46:50,123] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 10:46:50,133] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 10:46:50,134] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 10:46:50,135] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-10 10:47:06,676] 23 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3FB0:6A30:364B76:4FA499:6484073D
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 05:16:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100030-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686374207.984532,VS0,VE898
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 459b3da778afb6c0213a9f5ed799ee893a6459fa
+Expires: Sat, 10 Jun 2023 05:21:47 GMT
+Source-Age: 1
+
+
+[2023-06-10 10:47:07,557] 13 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2023-06-10 10:47:07,557] 21 cnnClassifierLogger - INFO - *******************
+[2023-06-10 10:47:07,557] 22 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation started <<<<<<
+[2023-06-10 10:47:07,588] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 10:47:07,588] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 10:47:07,588] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 10:47:07,588] 52 cnnClassifierLogger - INFO - created directory at: artifacts/prepare_base_model
+[2023-06-10 10:47:47,757] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-06-10 10:47:47,942] 25 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation completed <<<<<<
+
+x==========x
+[2023-06-10 10:47:47,943] 33 cnnClassifierLogger - INFO - *******************
+[2023-06-10 10:47:47,944] 34 cnnClassifierLogger - INFO - >>>>>> stage Training started <<<<<<
+[2023-06-10 10:47:47,945] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 10:47:47,945] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 10:47:47,945] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 10:47:47,945] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-10 10:47:47,945] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-10 10:47:47,945] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-10 10:53:50,279] 10 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<
+[2023-06-10 10:53:50,287] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 10:53:50,297] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 10:53:50,298] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 10:53:50,299] 52 cnnClassifierLogger - INFO - created directory at: artifacts/data_ingestion
+[2023-06-10 10:55:19,245] 23 cnnClassifierLogger - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3FB0:6A30:364B76:4FA499:6484073D
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 05:23:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686374628.514963,VS0,VE428
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ad38f3d6dec0312f974499ffe8e12f192af4f632
+Expires: Sat, 10 Jun 2023 05:28:47 GMT
+Source-Age: 0
+
+
+[2023-06-10 10:55:19,418] 13 cnnClassifierLogger - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2023-06-10 10:55:19,418] 21 cnnClassifierLogger - INFO - *******************
+[2023-06-10 10:55:19,418] 22 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation started <<<<<<
+[2023-06-10 10:55:19,424] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 10:55:19,425] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 10:55:19,425] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 10:55:19,426] 52 cnnClassifierLogger - INFO - created directory at: artifacts/prepare_base_model
+[2023-06-10 10:55:19,698] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-06-10 10:55:19,862] 25 cnnClassifierLogger - INFO - >>>>>> stage Base Module preparation completed <<<<<<
+
+x==========x
+[2023-06-10 10:55:19,863] 33 cnnClassifierLogger - INFO - *******************
+[2023-06-10 10:55:19,863] 34 cnnClassifierLogger - INFO - >>>>>> stage Training started <<<<<<
+[2023-06-10 10:55:19,865] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 10:55:19,867] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 10:55:19,867] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 10:55:19,869] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2023-06-10 10:55:19,869] 52 cnnClassifierLogger - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2023-06-10 10:55:19,870] 52 cnnClassifierLogger - INFO - created directory at: artifacts\training
+[2023-06-10 11:04:22,185] 37 cnnClassifierLogger - INFO - >>>>>> stage Training completed <<<<<<
+
+x==========x
+[2023-06-10 11:04:22,185] 46 cnnClassifierLogger - INFO - *******************
+[2023-06-10 11:04:22,185] 47 cnnClassifierLogger - INFO - >>>>>> stage Evaluation stage started <<<<<<
+[2023-06-10 11:04:22,195] 32 cnnClassifierLogger - INFO - yaml file: config\config.yaml loaded successfully
+[2023-06-10 11:04:22,196] 32 cnnClassifierLogger - INFO - yaml file: params.yaml loaded successfully
+[2023-06-10 11:04:22,197] 52 cnnClassifierLogger - INFO - created directory at: artifacts
+[2023-06-10 11:04:28,087] 66 cnnClassifierLogger - INFO - json file saved at: scores.json
+[2023-06-10 11:04:28,088] 50 cnnClassifierLogger - INFO - >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x
+[2023-06-10 11:07:24,204] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.231.83:8080
+[2023-06-10 11:07:24,204] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-06-10 11:07:52,661] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 11:07:52] "GET / HTTP/1.1" 200 -
+[2023-06-10 11:08:40,588] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 11:08:40] "POST /predict HTTP/1.1" 200 -
+[2023-06-10 11:09:03,885] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 11:09:03] "POST /predict HTTP/1.1" 200 -
+[2023-06-10 11:09:49,138] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.231.83:8080
+[2023-06-10 11:09:49,139] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-06-10 11:09:56,769] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 11:09:56] "GET / HTTP/1.1" 200 -
+[2023-06-10 11:10:38,708] 186 werkzeug - INFO - 127.0.0.1 - - [10/Jun/2023 11:10:38] "POST /predict HTTP/1.1" 200 -
